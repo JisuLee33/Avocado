@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+    .banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+    /* css : sub1 */
+    
+    @font-face { 
+    font-family: 'EliceDigitalBaeum_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    section{width: 100%; height: 969px; background-color: #FBE0C4; margin: 0 auto;}
+    .box{width: 1200px; height: 969px; margin: 0 auto;}
+    .event_text{width: 100%; height: 100px; float: left; margin: 100px 0 0 0px;}
+    .event_text h2{text-align: center; color: #0061A8; font-size: 55px; text-align: center;}
+    .event_box{width: 1000px; height: 450px; margin: 50px 0 0 95px; float: left; background-color: white;}
+    .text{width: 100%; height: 150px;}
+    .text p{text-align: center; font-size: 30px; float: left; margin: 60px 0 0 180px;}
+    .text span{color: #0061A8; font-weight: bold;}
+    .text h5{color: black; font-size: 14px; float: right; margin: 140px 50px 0 0px;}
+
+    .imgbox{width: 900px; height: 260px; background-color: #eee; margin: 0 auto ;}
+    .imgbox img{width: 180px; height: 230px; margin: 15px 0px 0 20px;}
+    .img_text{width: 450px; height: 260px; float: right; margin: 0px 27px 0 0px;}
+    .img_text h5{font-size: 24px; text-align: center; margin: 30px 0 0 0px;}
+    .up p{width: 55px; font-size: 14px; border: 1px solid #0061A8; border-radius: 30px; padding: 5px 10px; margin: 30px 0 0 50px;}
+    .up span{float: right; font-size: 14px; margin: -27px 260px 0 0px;}
+    .down p{width: 80px; font-size: 14px; border: 1px solid #0061A8; border-radius: 30px; padding: 5px 10px; margin: 12px 0 0 50px;}
+    .down span{font-size: 14px; float: right; margin: -25px 15px 0 0px;}
+
+    .textbox{width: 900px; height: 100px;
+        position: absolute;
+        top: 70%;
+        left: 51%;
+        transform: translate(-50%,-50%);
+    }
+    .textbox ul li{color: black;}
+
+    /* css : sub:2 */
+    *{margin: 0; padding: 0; font-family: 'EliceDigitalBaeum_Regular';}
+
+			@font-face {
+			font-family: 'Cafe24Ssurround';
+			src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+			@font-face { 
+			font-family: 'EliceDigitalBaeum_Regular';
+			src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+			header{width: 100%; height: 680px; background-color: #8AB6D6; margin: 0 auto;}
+			.header_box{width: 1200px; height: 680px; margin: 0 auto;}
+			.header_box h3{width: 600px; text-align: center; font-size: 30px; color: #fff; float: left; margin: 140px 0 20px 300px; font-family: 'EliceDigitalBaeum_Regular';}
+			.header_box h1{width: 700px; text-align: center; float: left; font-size: 130px; color: #fff; margin: 0px 0 5px 250px; font-family: 'Cafe24Ssurround';}
+			.header_box p{width: 600px; text-align: center; float: left; font-size: 100px; color: #FFCB66; margin: 0px 0 0 300px; font-family: 'Cafe24Ssurround';}
+			.header_box span{width: 500px; text-align: center; float: left; font-size: 20px; color: #fff; margin: 100px 0 0 350px; font-family: 'Cafe24Ssurround';}
+
+			section{width: 100%; height: 1700px; background-color: #2978B5; margin: 0 auto;display: flex;}
+			.event_box{width: 1200px; height: 60%; background-color: pink; margin: 0 auto; }
+			.Calendar_box h3{width: 100%; color: #fff; text-align: center; float: left; font-size: 90px; margin: 50px 0 0 0px;}
+			.Calendar_box table{border: 1px solid #eee; border-radius: 15px; background-color: #fff; float: left; margin: 90px 0 0 140px;}
+			.Calendar_box th{padding: 10px 10px;}
+			.Calendar_box td{
+                border: 1px solid #eee; 
+                border-radius: 50%; width:130px; 
+                height:130px; 
+                text-align: center;
+                cursor:pointer;
+            }
+
+            .stamp {
+                background-image:url("../img/sub_img/stamp.png"); 
+                background-position: center; 
+                background-size: cover;
+                background-color: #eee;    
+            }
+
+			.event_text h3{width: 100%; text-align: center; float: left; font-size: 30px; margin: 70px 0 0 0px;}
+			.Point_box{width: 100%; height: 400px; float: left; margin: 50px 0 0 0px;}
+			.Point{width: 300px; height: 300px; float: left; border-radius: 50%; margin: 50px 0 0 75px; background-color: #fff; }
+			.Point h5{
+                width: 200px; 
+                text-align: center; 
+                font-size: 30px; 
+                border-bottom: 3px solid #2978B5; 
+                margin: 40px 0 0 48px;
+                line-height:70px;
+            }
+
+			.Point p{
+                width: 152px; 
+                text-align: center; 
+                font-size: 23px; 
+                margin:0 auto;
+            }
+
+			.Point span{
+                font-size: 38px; 
+                color: #FFCB66; 
+                font-weight: bold; 
+                display:block;
+                text-align: center;
+            }
+
+			footer{width: 100%; height: 280px; background-color: #eee; margin: 0 auto;}
+			.footer_box{width: 1200px; height: 280px; margin: 0 auto;}
+			.footer_box h4{width: 200px; color: gray; font-size: 25px; float: left; margin: 30px 0 0px 30px;}
+			.footer_box ul{float: left; margin: 100px 0 0 -150px; font-size: 18px;}
+		

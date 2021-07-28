@@ -1,0 +1,743 @@
+@charset "UTF-8";
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    font-family: 'EliceDigitalBaeum_Regular';
+}
+
+
+/*전체 폰트*/
+
+@font-face {
+    font-family: 'EliceDigitalBaeum_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    .banner {
+        width: 100%;
+        height: 900px;
+        background-color: #00d2ff;
+    }
+
+        .banner>img {
+            margin: 0 auto;
+            display: block;
+        }
+
+.banner>img:nth-of-type(2) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/*.art_1 start*/
+
+.art_1 {
+    width: 100%;
+    height: auto;
+    background-color: rgba(209, 151, 74, 0.7);
+    margin: 0 auto;
+    padding: 50px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.first,
+.last {
+    max-width: 800px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.first {
+    text-align: center;
+    line-height: 50px;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.first>p {
+    color: #fff;
+}
+
+.first>h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.first>h1>span {
+    color: #203F88;
+}
+
+.coupon_container {
+    max-width: 700px;
+    height: 600px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 45px 20px 20px 20px;
+    box-shadow: 2px 2px 4px 2px rgb(109, 103, 97);
+}
+
+.coupon_header {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.coupon_header p {
+    font-size: 0.6em;
+}
+
+.coupon_header p>span {
+    color: #48BC49;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.coupon_header h3>span {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.coupon_header h4 {
+    font-size: 0.7em;
+}
+
+.coupon_header h3 {
+    color: navy;
+}
+
+.coupon,
+.coupon_info {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.coupon:hover {
+    transform: scale(0.98);
+    box-shadow: 5px 5px 5px #666;
+    cursor: pointer;
+}
+
+.coupon3 {
+    margin: 30px auto;
+}
+
+.info_box {
+    width: 100%;
+    height: 70%;
+    /* background-color: gold; */
+    font-size: 0.7em;
+    margin: 15px 0;
+}
+
+.info_box>h3 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.info_box3 {}
+
+.art1_imgBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 1500px;
+    z-index: -1;
+}
+
+.art_1 img {
+    position: absolute;
+}
+
+.art1_imgBox>img:nth-of-type(1) {
+    top: 0%;
+    left: 25%;
+}
+
+.art1_imgBox>img:nth-of-type(2) {
+    top: 20%;
+    right: 25%;
+}
+
+.art1_imgBox>img:nth-of-type(3) {
+    top: 40%;
+    left: 15%;
+    transform: rotate(-45deg);
+}
+
+.art1_imgBox>img:nth-of-type(4) {
+    bottom: -10%;
+    left: 25%;
+}
+
+.art1_imgBox>img:nth-of-type(5) {
+    bottom: 40%;
+    right: 25%
+}
+
+
+/*.art_1 end*/
+
+
+/*.art_2 start*/
+
+.art_2 {
+    width: 100%;
+    height: 950px;
+    background-color: rgb(79, 150, 209);
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.sec_box1 {
+    max-width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0 0;
+}
+
+.sec_box1 h1 {
+    font-size: 36px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.sec_box1 .text1 {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.sec_box2 {
+    max-width: 800px;
+    height: 200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec_box2 .sub {
+    width: 140px;
+    height: 180px;
+    text-align: center;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.sec_box2 .sub:hover {
+    opacity: 0.7;
+    cursor:pointer;
+    transform: scale(0.98);
+}
+
+#second_3 {
+    position: relative;
+    height: 450px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.sec_box3 {
+    max-width: 1200px;
+    height: 450px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px #666;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sec_box3 .product {
+    width: 250px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    .sec_box_2>.product:nth-of-type(4){
+        height: 412px;
+    }
+
+.product img {
+    width: 174px;
+    box-shadow: 2px 2px 2px 2px #666;
+    margin-bottom: 10px;
+}
+
+
+/*.art_2 end*/
+
+
+/*.art_3 start*/
+
+.art_3 {
+    width: 100%;
+    height: 950px;
+    background-color: rgb(22, 83, 133);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.third {
+    width: 385px;
+    height: 600px;
+    margin-top: 20px;
+    background-color: #fff;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third1_box1 {
+    width: 385px;
+    height: 400px;
+    background-image: url("../img/art3/1.png");
+}
+
+.third1_text1 {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+
+.third1_text1 h3 {
+    margin: 15px;
+}
+
+.third1_btn1 {
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+.third1_btn1 button {
+    width: 150px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.third1_btn1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.third2_box2 {
+    width: 385px;
+    height: 400px;
+    background-image: url('../img/art3/2.png');
+}
+
+.third2_text2 {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+
+.third2_text2 h3 {
+    margin: 15px;
+}
+
+.third2_btn2 {
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+.third2_btn2 button {
+    width: 150px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.third2_btn2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.third3_box3 {
+    width: 385px;
+    height: 400px;
+    background-image: url("../img/art3/3.png");
+}
+
+.third3_text3 {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+
+.third3_text3 h3 {
+    margin: 15px;
+}
+
+.third3_btn3 {
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+.third3_btn3 button {
+    width: 150px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.third3_btn3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*.art_2 end*/
+
+
+/*.login_bg start*/
+
+.login_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.wrap>.login_Bgpop {
+    display: block;
+    background-color: rgb(117, 102, 80);
+    opacity: 0.7;
+}
+
+.login {
+    position: absolute;
+    left: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 900px;
+    display: none;
+    transform: translateX(-50%);
+}
+
+.login_effect {
+    display: block;
+    background-color: #fff;
+}
+
+
+/*로그인 팝업 효과*/
+
+.login_box {
+    width: 400px;
+    margin: 10px;
+   
+}
+    .login_box img{
+        width: 150px;
+    }
+
+.login_banner {
+    height: 300px;
+    position: relative;
+}
+
+.login_banner>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.login_close {
+    width: 50px;
+    height: 50px;
+}
+
+.login_close span {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.login_close span::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    transform: rotate(45deg);
+    transform-origin: center;
+    transition: .5s ease-in-out;
+}
+
+.login_close span::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    transform: rotate(-45deg);
+    transform-origin: 11px;
+    transition: .5s ease-in-out;
+}
+
+.login_close span:hover::before {
+    transform: rotate(60deg);
+    transition: .5s ease-in-out;
+}
+
+.login_close span:hover::after {
+    transform: rotate(-60deg);
+    transition: .5s ease-in-out;
+}
+
+.login>form {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login>form>input {
+    width: 300px;
+    height: 100px;
+    margin: 10px 0;
+    background-color: #06B9F2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login>form>label>input {
+    width: 300px;
+    height: 40px;
+    margin: 10px 0;
+    border: 1px solid;
+}
+
+.find_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+    .find_info>.signUp{
+        width: 75%;
+        height: 100%;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .find_info>.signUp:hover{
+        background-color: #00d2ff;
+        color: #fff;
+    }
+
+.start_sns {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.start_sns>div {
+    width: 150px;
+    height: 50%;
+    margin: 0 5px;
+}
+
+
+
+.login_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_info {
+    width: 300px;
+    height: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 0.7em;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.join_av_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.7;
+    display: none;
+}
+   
+.join_av{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    display: none;
+}
+.join_effect{
+    display: block;
+}
+    .join_close{
+        width: 50px;
+        height: 50px;
+    }
+        .join_close span {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 30px;
+            left: 10px;
+            cursor: pointer;
+        }
+        
+        .join_close span::before {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #000;
+            transform: rotate(45deg);
+            transform-origin: center;
+            transition: .5s ease-in-out;
+        }
+        
+        .join_close span::after {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #000;
+            transform: rotate(-45deg);
+            transform-origin: 11px;
+            transition: .5s ease-in-out;
+        }
+        
+        .join_close span:hover::before {
+            transform: rotate(60deg);
+            transition: .5s ease-in-out;
+        }
+        
+        .join_close span:hover::after {
+            transform: rotate(-60deg);
+            transition: .5s ease-in-out;
+        }
+
+    
+    .join_banner{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+        .join_banner>img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    .join_av .join_form{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .join_form input{
+            width: 300px;
+            height: 40px;
+            border: 2px solid;
+            margin: 10px 0;
+
+        }
+        .join_form>input{
+            background-color: #06B9F2;
+        }
+
+
+
+/*.login_bg end*/
